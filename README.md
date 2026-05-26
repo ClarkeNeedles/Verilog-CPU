@@ -6,6 +6,7 @@ The final design supports register-register operations, immediate operations, me
 
 ## Table of Contents
 
+- [Development Tools](#development-tools)
 - [Repository Layout](#repository-layout)
 - [Architecture Overview](#architecture-overview)
 - [Instruction Format](#instruction-format)
@@ -17,6 +18,15 @@ The final design supports register-register operations, immediate operations, me
 - [Performance Notes](#performance-notes)
 - [Running Simulations](#running-simulations)
 - [License](#license)
+
+## Development Tools
+
+The following electronic design automation (EDA) tools were used to build and verify the Mini SRC design:
+
+* **Intel Quartus Prime Lite Edition** 
+  * Used for design entry, Verilog code development, and synthesis.
+* **ModelSim** 
+  * Used for functional simulation, testbench execution, and waveform diagram analysis.
 
 ## Repository Layout
 
